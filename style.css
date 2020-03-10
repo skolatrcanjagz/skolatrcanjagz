@@ -177,7 +177,7 @@ header img
 nav
 {
     text-decoration: none;
-    margin-top:-15px;
+    margin-top:-25px;
     margin-bottom: 10px;
     padding: 0;
    
@@ -196,8 +196,8 @@ nav li
 nav ul
 {
     display: grid;
-    grid-gap:10px;
-    grid-template-columns: 50px 50px 50px 50px;
+    grid-gap:8px;
+    grid-template-columns: 45px 45px 45px 45px;
 }
 nav a 
 {
