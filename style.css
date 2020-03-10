@@ -196,7 +196,7 @@ nav li
 nav ul
 {
     display: grid;
-    grid-gap:20px;
+    grid-gap:23px;
     grid-template-columns: 45px 45px 45px 45px;
 }
 nav a 
