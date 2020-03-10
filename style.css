@@ -42,23 +42,38 @@ header
 }
 nav
 {
-    position: static;
+    
+    
     text-decoration: none;
     margin-top: 150px;
     margin-bottom: 20px;
     padding: 10px;
-    
+   
 }
 nav li
 {
-    display: inline;
-    padding:15px 20px;
-    margin-left: 250px;
-    border: 1px solid white;
+  
     
+    width: auto;
+    cursor: pointer;
+    margin: 0px;
+    padding: 4px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+   
+    list-style-type: none;
+    
+}
+nav ul
+{
+    display: grid;
+    grid-gap:12%;
+    grid-template-columns: 15% 15% 15% 15%;
 }
 nav a 
 {
+    
     color:white;
     font-size: 1.5em;
     font-weight: bold;
@@ -78,17 +93,17 @@ nav a:hover
 #sadrzaj
 {
     
-    margin: 5px 10% ;
     height: auto;
     width: 80%;
     padding: 10px;
     text-align: justify;
-    border: 1px solid white;
+    margin: auto;
+    
 }
 #sadrzaj img
 {
     float: right;
-    margin: 10px;
+    margin: auto;
     height: auto;
     width : 50%;
     padding:10px;
@@ -102,20 +117,22 @@ nav a:hover
 #socialMedia
 {
     
-    height: 20%;
-    width: 20%;
+    height: 80px;
+    width: 180px;
+    border: 1px solid white;
+    border-radius: 10px;
     padding: 10px;
-    
-    margin: 10px 30%;
+    margin: 20px 44%;
 }
 #socialMedia img
 {
     
     width: 50px;
     height: 50px;
-    margin-right: 40px;
+    margin-right: 20px;
     
 }
+
 footer 
 {
     margin-top: 20px;
@@ -160,21 +177,27 @@ header img
 nav
 {
     text-decoration: none;
-    margin-top:-20px;
+    margin-top:0px;
     margin-bottom: 10px;
     padding: 0;
    
 }
 nav li
 {
-    display: inline;
+    
     padding-left: 0;
     padding-right: 12px;
     margin: 0;
     margin-left: -5px;
-   border: none;
+    border: none;
     
    
+}
+nav ul
+{
+    display: grid;
+    grid-gap:35px;
+    grid-template-columns: 80px  80px 80px 80px;
 }
 nav a 
 {
@@ -215,17 +238,17 @@ nav a:hover
 #socialMedia
 {
     
-    height: 20%;
-    width: 100%;
-    padding: 10px;
-    margin-right: 40px;
+    height: 80px;
+    width: 50%;
+    margin: auto;
+    border: 1px solid white;
+    padding: auto;
 }
 #socialMedia img
 {
-    width: 50px;
-    height: 50px;
-    margin-right: 40px;
-    
+    border: 1px solid red;   
+    margin:auto;
+   
 }
 footer 
 {
